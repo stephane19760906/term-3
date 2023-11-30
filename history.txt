@@ -1,0 +1,10 @@
+  295  cat Biarritz.csv 
+  296  grep -E "Biarritz.*JavaScript" wilders.csv > Biarritz.csv
+  297  cat Biarritz.csv 
+  298  grep -E "Toulouse.*JavaScript" wilders.csv > Toulouse.csv
+  299  cat Toulouse.csv 
+  300  touch javascript_biarritz_toulouse.csv
+  301  cat Toulouse.csv Biarritz.csv > javascript_biarritz_toulouse.csv
+  302  cat javascript_biarritz_toulouse.csv
+  303  man tail
+  304  history | tail -n 10 > history.txt
